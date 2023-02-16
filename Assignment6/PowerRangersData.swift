@@ -6,7 +6,7 @@
 //
 //
 //  Originally I was going to make a dictionary or array as a pList but this was easier and faster
-//
+//  Plus I learned how to to use Array<(name:String, image:String, color:String)> instead of Array<Any>
 
 import Foundation
 
