@@ -47,8 +47,10 @@ class PowerRangersTableViewController: UITableViewController
         let PowerRangerLabel:UILabel = cell.contentView.viewWithTag(1) as! UILabel
         
         let powerRangerInformation = PowerRangersData().returnAllRangersData()[indexPath.row]
-        PowerRangerLabel.text = powerRangerInformation.name
         
+        PowerRangerLabel.text = powerRangerInformation.name
+        cell.contentView.backgroundColor = UIColor(named: powerRangerInformation.color)
+    
         
         
   //      cell.contentView.backgroundColor = UIColor.systemGreen;
