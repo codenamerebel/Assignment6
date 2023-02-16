@@ -13,6 +13,8 @@
 		A23DA2BB299E7E940049D151 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A23DA2BA299E7E940049D151 /* Assets.xcassets */; };
 		A23DA2BE299E7E940049D151 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A23DA2BC299E7E940049D151 /* LaunchScreen.storyboard */; };
 		A23DA2C6299E7F040049D151 /* PowerRangersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23DA2C5299E7F040049D151 /* PowerRangersTableViewController.swift */; };
+		A243AA40299E96A30084D547 /* PowerRangersData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A243AA3F299E96A30084D547 /* PowerRangersData.swift */; };
+		A243AA42299E9AEF0084D547 /* PowerRangerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A243AA41299E9AEF0084D547 /* PowerRangerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A23DA2BD299E7E940049D151 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A23DA2BF299E7E940049D151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A23DA2C5299E7F040049D151 /* PowerRangersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerRangersTableViewController.swift; sourceTree = "<group>"; };
+		A243AA3F299E96A30084D547 /* PowerRangersData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerRangersData.swift; sourceTree = "<group>"; };
+		A243AA41299E9AEF0084D547 /* PowerRangerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerRangerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				A23DA2BA299E7E940049D151 /* Assets.xcassets */,
 				A23DA2BC299E7E940049D151 /* LaunchScreen.storyboard */,
 				A23DA2C5299E7F040049D151 /* PowerRangersTableViewController.swift */,
+				A243AA3F299E96A30084D547 /* PowerRangersData.swift */,
+				A243AA41299E9AEF0084D547 /* PowerRangerViewController.swift */,
 				A23DA2BF299E7E940049D151 /* Info.plist */,
 			);
 			path = Assignment6;
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A243AA42299E9AEF0084D547 /* PowerRangerViewController.swift in Sources */,
 				A23DA2B2299E7E920049D151 /* AppDelegate.swift in Sources */,
 				A23DA2C6299E7F040049D151 /* PowerRangersTableViewController.swift in Sources */,
+				A243AA40299E96A30084D547 /* PowerRangersData.swift in Sources */,
 				A23DA2B4299E7E920049D151 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

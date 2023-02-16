@@ -40,10 +40,10 @@
             </objects>
             <point key="canvasLocation" x="-1422" y="-651"/>
         </scene>
-        <!--View Controller-->
+        <!--Power Ranger View Controller-->
         <scene sceneID="2c4-ng-BYL">
             <objects>
-                <viewController id="jAe-4E-bGf" sceneMemberID="viewController">
+                <viewController id="jAe-4E-bGf" customClass="PowerRangerViewController" customModule="Assignment6" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0V3-e3-P5N">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -62,6 +62,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="xR4-2t-UFh"/>
+                    <connections>
+                        <outlet property="PowerRangerImage" destination="CCp-83-zQ5" id="K3F-Za-g7I"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aVG-gy-Huh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
