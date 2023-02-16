@@ -15,13 +15,13 @@ class   PowerRangersData
 {
     
     let BlackRanger = (name:"Black Ranger", image:"Black Ranger")
-    let BlueRanger = (name:"Blaue Ranger", image:"Blue Ranger")
+    let BlueRanger = (name:"Blue Ranger", image:"Blue Ranger")
     let GreenRanger = (name:"Green Ranger", image:"Green Ranger")
     let PinkRanger = (name:"Pink Ranger", image:"Pink Ranger")
     let RedRanger = (name:"Red Ranger", image:"Red Ranger")
     let YellowRanger = (name:"Yellow Ranger", image:"Yellow Ranger")
     
-    func    returnAllRangersData() -> Array<Any>
+    func    returnAllRangersData() -> Array<(name:String, image:String)>
     {
         return [self.BlackRanger, self.BlueRanger, self.GreenRanger, self.PinkRanger, self.RedRanger, self.YellowRanger];
     }

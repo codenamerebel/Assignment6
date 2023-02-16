@@ -10,12 +10,17 @@ import UIKit
 class PowerRangerViewController: UIViewController {
     
     @IBOutlet   var PowerRangerImage:UIImageView!
+    
+    var PowerRangerImageName:String = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.PowerRangerImage.image = UIImage(named: PowerRangersData().YellowRanger.image)
+     //   self.PowerRangerImage.image = UIImage(named: PowerRangersData().YellowRanger.image)
         // Do any additional setup after loading the view.
+        
+        
+        PowerRangerImage.image = UIImage(named: PowerRangerImageName)
     }
     
 

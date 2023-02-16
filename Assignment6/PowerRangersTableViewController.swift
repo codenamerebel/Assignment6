@@ -43,8 +43,15 @@ class PowerRangersTableViewController: UITableViewController
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Power Ranger", for: indexPath)
-
-        cell.contentView.backgroundColor = UIColor.systemGreen;
+        
+        let PowerRangerLabel:UILabel = cell.contentView.viewWithTag(1) as! UILabel
+        
+        let powerRangerInformation = PowerRangersData().returnAllRangersData()[indexPath.row]
+        PowerRangerLabel.text = powerRangerInformation.name
+        
+        
+        
+  //      cell.contentView.backgroundColor = UIColor.systemGreen;
         // Configure the cell...
 
         return cell
@@ -95,5 +102,17 @@ class PowerRangersTableViewController: UITableViewController
         // Pass the selected object to the new view controller.
     }
     */
+    
+    override    func    prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        var powerRangerViewController:PowerRangerViewController = segue.destination as! PowerRangerViewController
+        
+        
+        let powerRangerData = PowerRangersData().returnAllRangersData()[self.tableView.indexPathForSelectedRow!.row]
+        powerRangerViewController.PowerRangerImageName = powerRangerData.image
+        
+        
+        
+    }
 
 }
